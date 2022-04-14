@@ -15,5 +15,16 @@ namespace IMBA.Tests
             //Assert
             Assert.AreEqual(1, 1);
         }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            //Arrange
+
+            //Act
+
+            //Assert
+            Assert.AreEqual(21, 21);
+        }
     }
 }
