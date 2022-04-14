@@ -1,0 +1,47 @@
+﻿@page "/im"
+@using IMBA.Models
+@inject HttpClient Http
+
+<PageTitle>Industriell maskinpark</PageTitle>
+
+<h3>IM</h3>
+
+@if (ims == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+        <table class="table">
+        <thead>
+            <tr>
+                <th>Deviceid</th>
+                <th>Name</th>
+                <th>Data</th>
+                <th>Status</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var im in ims)
+            {
+                <tr>
+                    <td>@im.Id</td>
+                    <td>@im.Name</td>
+                    <td>@im.Data</td>
+                    <td>@im.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+     private Im[]? ims;
+
+    protected override async Task OnInitializedAsync()
+    {
+        ims = await Http.GetFromJsonAsync<Im[]>("sample-data/ims.json");
+        
+    }
+}

@@ -15,7 +15,22 @@
     "summary": "Freezing"
   },
   {
+    "date": "2022-04-11",
+    "temperatureC": 8,
+    "summary": "Gävle"
+  },
+  {
+    "date": "2022-05-10",
+    "temperatureC": 5,
+    "summary": "BNs"
+  },
+  {
     "date": "2018-05-09",
+    "temperatureC": -16,
+    "summary": "Balmy"
+  },
+  {
+    "date": "2017-05-09",
     "temperatureC": -16,
     "summary": "Balmy"
   },

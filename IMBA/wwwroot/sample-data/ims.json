@@ -1,0 +1,26 @@
+﻿[
+  {
+    "id": "5C50522E-1C1C-48B8-AD3E-807AB9CFB47B",
+    "status": "1",
+    "name": "Freezing",
+    "data": "2022-04-11 Started"
+  },
+  {
+    "id": "5AE342AA-BF34-47C5-9FDC-BE235E99C580",
+    "status": "Offline",
+    "name": "Pelle",
+    "data": "2022-04-11 stopped"
+  },
+  {
+    "id": "78B95377-1A3A-4363-BE1F-C959A17311D5",
+    "status": "1",
+    "name": "Kalle",
+    "data": "2022-04-11 Trasig"
+  },
+  {
+    "id": "A8876124-4A38-43CD-B78D-26A936B03973",
+    "status": "Online",
+    "name": "IoT 34",
+    "data": "2022-04-11 Started"
+  }
+]

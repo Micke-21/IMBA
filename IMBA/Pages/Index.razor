@@ -2,8 +2,21 @@
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+<HeadContent>
+    <meta name="description" content="This is a home page" />
+</HeadContent>
+<h1>Hello, !</h1>
 
 Welcome to your new app.
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<SurveyPrompt Title="How is Blazor working for you? Not so god!" />
+
+
+<ErrorBoundary>
+    <ChildContent>
+        <Counter />
+    </ChildContent>
+    <ErrorContent>
+        <div class"text.danger">There was an error loading the counter.</div>
+    </ErrorContent>
+</ErrorBoundary>
